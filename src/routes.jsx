@@ -1,14 +1,16 @@
-import React, { Component } from 'react';
+import React from 'react'
+import Layout from './hoc/Layout';
 
-
-class App extends Component {
-  render() {
-    return (
-      <div>
-       <h1>Man City</h1>
-      </div>
-    );
-  }
+const Routes = (props) => {
+  return (
+    <div>
+      <Layout>
+        Second Line
+      </Layout>
+    </div>
+  )
 }
 
-export default App;
+export default Routes
+
+
